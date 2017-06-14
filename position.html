@@ -1,0 +1,74 @@
+<!doctype html>
+   <html>
+         <head>
+               <title>ass</title>
+          <style>
+                 /*- this is id selector to the parent div and set the position relative-*/
+
+                 #parent {
+                           
+                           width:200px;
+                           height:100px;
+                           padding:3px;
+                           
+                           border:1px solid blue; 
+                           background-color:red;
+                           position:relative;
+                         
+                         }
+
+                     /*- this is id selector to the child div and set the position absolute -*/
+
+                  #child {
+                           position:absolute;
+                         }
+
+                       /*- this is class selector for the paragrph tag  -*/
+
+                  .p   {
+                         word-spacing:15px;
+                       }
+           </style>
+           </head>
+           <body>
+
+                     
+
+                    <h2>Date of birth</h2>
+
+                   <!- create div for parent and child -->
+
+                   <div id="parent">
+                                 <p class="p"> date  month   year  </p>
+
+                                 <div id="parent2"> 
+
+                                <!- this is the tag for dropdown box -->
+
+                                      <select>
+                                                <option>dt</option>
+                                                <option>1</option>
+                                                <option>2</option>
+                                                <option>3</option>
+                                                <option>4</option>
+                                      </select>
+                                       <select>
+                                                <option>month</option>
+                                                <option>jan</option>
+                                                 <option>feb</option>
+                                                 <option>march</option>
+                                                 <option>april</option>
+                                      </select>
+                                      <select>
+                                               <option>year</option>
+                                               <option>2000</option>
+                                               <option>2001</option>
+                                               <option>2002</option>
+                                               <option>2003</option>
+                                       </select>
+                               </div>
+                       </div>
+               
+              </body>
+      </html>
+                  
